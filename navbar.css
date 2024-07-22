@@ -1,0 +1,215 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0F7FA;
+}
+
+header {
+    background: linear-gradient(45deg, #1e3c72, #2a5298); /* Gradient background with shades of blue */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.navbar-brand a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    margin-left: 1.5rem;
+}
+
+.navbar-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar-nav a:hover {
+    background-color: #2a5298; /* Darker shade on hover */
+    color: #fff; /* White text on hover */
+}
+/* Add this to your existing CSS file */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease-in-out; /* Smooth transition */
+}
+
+.hero-container img {
+    margin-right: 5rem;
+}
+
+.hero {
+    text-align: left;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.hero-container.visible {
+    opacity: 1; /* Make visible */
+}
+
+
+
+.hero-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease-in-out; /* Smooth transition */
+}
+
+.hero-container2 img {
+    margin-left: 20rem;
+}
+.hero-container2.visible {
+    opacity: 1; /* Make visible */
+}
+
+#container h2{
+    font-size: 2.5rem;
+}
+
+#container p {
+    font-size: 1.25rem;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #95bfbf;
+    padding: 40px 0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    border: black 3px solid;
+    border-radius: 6px;
+  
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3, .footer-section h4 {
+    color: #1169c7;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section form {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #007bff;
+}
+
+.footer-section a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.footer-section a img:hover {
+    transform: scale(1.2);
+}
+
+.footer-section form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.footer-section form input[type="email"]:focus {
+    border-color: #007bff;
+}
+
+.footer-section form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer-section form button:hover {
+    background-color: #0056b3;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #000000;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+
+
